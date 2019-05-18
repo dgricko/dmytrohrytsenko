@@ -268,3 +268,71 @@ html{
 .level-40:before{
   width: 40%;
 }
+@media(max-width: 1024px){
+  .container{
+    width: 90%; 
+  }
+}
+
+@media(max-width:992px){
+  .container{
+    flex-direction: column;  
+    width: 80%;
+  }
+  .profile-photo{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .lines{
+    display: none;
+  }
+  .resume{
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 768px){
+  .container{
+    width: 80%;
+  }
+  .resume-wrap{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .list-item-title, .list-item-title-nonbor{
+    font-size: 14px;
+  }
+  .list-item-data{
+    font-size: 12px;
+  }
+  .list-item-text{
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .about-contacts-link{
+    display: block;
+    font-size: 13px;
+  }
+  
+}
+@media(max-width: 567px){
+  .logo-img{
+    width: 70px;
+    height: 70px;
+  }
+  .logo-lines{
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+@media(max-width: 480px){
+  .container{
+    min-width: 320px;
+  }
+  .logo{
+    display: none;
+  }
+}
