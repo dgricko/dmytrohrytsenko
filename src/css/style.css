@@ -265,8 +265,8 @@ html{
 .level-90:before{
   width: 90%;
 }
-.level-40:before{
-  width: 40%;
+.level-65:before{
+  width: 65%;
 }
 @media(max-width: 1024px){
   .container{
